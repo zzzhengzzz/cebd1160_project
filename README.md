@@ -52,6 +52,5 @@ Choosing learning algorithms and hyperparameters can reduce bias and variance to
 The research started with the question to find best accuracy method, but there is no perfect method for all. The supplemented way is to include more training data to help to increase accuracy.
 
 ### References
-All of the links
-
+The links referred were included in above.
 -------
