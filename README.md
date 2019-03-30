@@ -4,51 +4,49 @@ Instructions and template for final projects.
 
 | Name | Date |
 |:-------|:---------------|
-|Your name here | Completion date|
+|Zheng Zheng | 2019/03/29|
 
 -----
 
 ### Resources
-Your repository should include the following:
+This repository includes the following:
 
-- Python script for your analysis
-- Results figure/saved file
-- Dockerfile for your experiment
-- runtime-instructions in a file named RUNME.md
+- Python script for your analysis: `digits.py`
+- Results figure/saved file: `figures/`
+- Dockerfile for your experiment: `Dockerfile`
+- runtime-instructions in a file named `RUNME.md`
+
 
 -----
 
 ## Research Question
 
-1 sentence description of your research question.
+What is the accuracy of recognizing digits? 
 
 ### Abstract
 
-4 sentence longer explanation about your research question. Include:
-
-- opportunity (what data do we have)
-- challenge (what is the "problem" we could solve with this dataset)
-- action (how will we try to solve this problem/answer this question)
-- resolution (what did we end up producing)
+The data set contains hand-written digits images, with 10 classes (0-9). Using Logistic Regression and SVM to recognize the data set, there is the difference in accuracy. Based on the performance of the both methods, we found that SVM has slightly higher accuracy.
 
 ### Introduction
 
-Brief (no more than 1-2 paragraph) description about the dataset. Can copy from elsewhere, but cite the source (i.e. at least link, and explicitly say if it's copied from elsewhere).
+The data set contains images of hand-written digits: 10 classes where each class refers to a digit.
+(https://scikit-learn.org/stable/datasets/index.html#digits-dataset)
+
 
 ### Methods
 
-Brief (no more than 1-2 paragraph) description about how you decided to approach solving it. Include:
+The method for modelling the data were Logistic Regression and Support Vector Classification(SVC) built into scikit-learn.
+Pseudocode: https://scikit-learn.org/stable/auto_examples/classification/plot_digits_classification.html
 
-- pseudocode for this method (either created by you or cited from somewhere else)
-- why you chose this method
+Logistic Regression has 0.946666666667 accuracy
+SVM has 0.9888682745825603 accuracy
+
 
 ### Results
 
-Brief (2 paragraph) description about your results. Include:
+![alt text](https://github.com/mikeditri/Final_Project/blob/master/figures/RFC_Accuracy.png)
 
-- At least 1 figure
-- At least 1 "value" that summarizes either your data or the "performance" of your method
-- A short explanation of both of the above
+Choosing learning algorithms and hyperparameters can reduce bias and variance to as low as possible, using more training data can help to reduce variance. Pseudocode: ( https://chrisalbon.com/machine_learning/model_evaluation/plot_the_validation_curve/)
 
 ### Discussion
 Brief (no more than 1-2 paragraph) description about what you did. Include:
