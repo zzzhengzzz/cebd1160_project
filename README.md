@@ -44,9 +44,9 @@ SVM has 0.9888682745825603 accuracy
 
 ### Results
 
-![alt text](https://github.com/mikeditri/Final_Project/blob/master/figures/RFC_Accuracy.png)
+![alt text](https://github.com/zzzhengzzz/cebd1160_project/blob/master/Validation%20Curve%20With%20Random%20Forest.png)
 
-Choosing learning algorithms and hyperparameters can reduce bias and variance to as low as possible, using more training data can help to reduce variance. Pseudocode: ( https://github.com/zzzhengzzz/cebd1160_project/blob/master/Validation%20Curve%20With%20Random%20Forest.png)
+Choosing learning algorithms and hyperparameters can reduce bias and variance to as low as possible, using more training data can help to reduce variance. Pseudocode: (  https://chrisalbon.com/machine_learning/model_evaluation/plot_the_validation_curve/)
 
 ### Discussion
 The research started with the question to find best accuracy method, but there is no perfect method for all. The supplemented way is to include more training data to help to increase accuracy.
