@@ -12,7 +12,7 @@ Instructions and template for final projects.
 This repository includes the following:
 
 - Python script for your analysis: `digits.py`
-- Results figure/saved file: `figures/`
+- Results figure/saved file: `figures`
 - Dockerfile for your experiment: `Dockerfile`
 - runtime-instructions in a file named `RUNME.md`
 
